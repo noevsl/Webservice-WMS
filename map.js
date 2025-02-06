@@ -125,7 +125,7 @@ const northArrow = L.control();
 
 northArrow.onAdd = function () {
     let div = L.DomUtil.create("div", "fleche_nord");
-    div.innerHTML = '<img src="D:/M2/902_1/ProjetWeb/noun-north-arrow-3064876.png" alt="North Arrow" style="width: 50px">';
+    div.innerHTML = '<img src="noun-north-arrow-3064876.png" alt="North Arrow" style="width: 50px">';
     return div;
 };
 
